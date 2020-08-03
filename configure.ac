@@ -140,6 +140,7 @@ AM_CONDITIONAL([BUILD_LUA],[test "$WITH_LUA" != "no"])
 
 AC_CONFIG_FILES([
 Makefile
+sigar.pc
 include/Makefile
 src/Makefile
 src/os/Makefile
